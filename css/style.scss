@@ -252,7 +252,7 @@ img {
     bottom:40px;
     left:50%;
     transform: translateX(-50%);
-    color: $wh;
+    color: $wh !important;
     background-color: $secondary;
     width: 146px;
     height: 36px;
@@ -274,7 +274,7 @@ img {
         transform: rotate(45deg);
     }
     @at-root .bg .btn-more, .bg-dark .btn-more{
-        color:$primary;
+        color:$primary !important;
         background-color: $wh;
         &::after {
             border-color: $secondary;

@@ -294,7 +294,7 @@ img {
   left: 50%;
   -webkit-transform: translateX(-50%);
           transform: translateX(-50%);
-  color: #fff;
+  color: #fff !important;
   background-color: #5263fe;
   width: 146px;
   height: 36px;
@@ -323,7 +323,7 @@ img {
           transform: rotate(45deg);
 }
 .bg .btn-more, .bg-dark .btn-more {
-  color: #3c488e;
+  color: #3c488e !important;
   background-color: #fff;
 }
 .bg .btn-more::after, .bg-dark .btn-more::after {
