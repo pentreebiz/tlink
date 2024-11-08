@@ -238,8 +238,10 @@ const mainHTML = `
 // Select the target element
 const elTarget = document.querySelector('#blkdfrm1');
 
-// Insert the HTML into the target element
-elTarget.innerHTML = mainHTML;
+if (elTarget) {
+    // Insert the HTML into the target element
+    elTarget.innerHTML = mainHTML;
+}
 
 
 (function ($) {
