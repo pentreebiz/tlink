@@ -157,6 +157,15 @@ img {
 }
 .mn-cont {
     overflow-x: hidden;
+    text-align:left;
+    overflow-x: hidden;
+    font-family: "Pretendard", Pretendard, -apple-system, BlinkMacSystemFont, system-ui, Roboto, "Helvetica Neue", "Segoe UI", "Apple SD Gothic Neo", "Noto Sans KR", "Malgun Gothic", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", sans-serif;
+    background-color: transparent;
+    letter-spacing: -0.025em;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-size-adjust: none;
+    width: 100%;
+    font-size: 16px;
 }
 .mn-nav {
     position: fixed;
@@ -310,7 +319,6 @@ img {
         display: block;
         font-size: 36px;
         font-weight: 600;
-        padding-top:0.1em;
     }
 }
 .mn-txt {
