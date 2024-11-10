@@ -29,11 +29,11 @@ const mainHTML = `
                 <header class="mn-tit-area">
                     <h2 class="mn-tit"><span>티링크 비즈</span></h2>
                     <div class="mn-txt-area">
-                        <cite>어디서든 저렴하고 간편하게<br class="mo">
+                        <cite>어디서든 저렴하고 간편하게<br>
                             사용 가능한 녹취, 고객관리시스템</cite>
-                        <p class="pc mn-txt">티링크 비즈는 인터넷전화기와 PC 폰, 스마트폰을 활용해서
-                            어디서든 저렴하고 간편하게 사용 가능한 녹취, 고객관리시스템입니다.
-                            사무실에서는 인터넷전화기로 재택 근무 시에는 PC폰으로
+                        <p class="pc mn-txt">티링크 비즈는 인터넷전화기와 PC 폰, 스마트폰을 활용해서<br>
+                            어디서든 저렴하고 간편하게 사용 가능한 녹취, 고객관리시스템입니다.<br>
+                            사무실에서는 인터넷전화기로 재택 근무 시에는 PC폰으로<br>
                             외근 중에는 스마트폰으로 사용하시면 됩니다.</p>
                     </div>
                 </header>
@@ -42,9 +42,9 @@ const mainHTML = `
                         srcset="https://cdn.quv.kr/dftb6o0ka/up/672b1b4cc75b0_1920.png">
                     <img src="https://cdn.quv.kr/dftb6o0ka/up/672b19c02226c_1920.png" alt="티링크 비즈">
                 </picture>
-                <p class="mo mn-txt">티링크 비즈는 인터넷전화기와 PC 폰, 스마트폰을 활용해서
+                <p class="mo mn-txt">티링크 비즈는 인터넷전화기와 PC 폰, 스마트폰을 활용해서<br>
                     어디서든 저렴하고 간편하게 사용 가능한 녹취, 고객관리시스템입니다.<br>
-                    사무실에서는 인터넷전화기로 재택 근무 시에는 PC폰으로
+                    사무실에서는 인터넷전화기로 재택 근무 시에는 PC폰으로<br>
                     외근 중에는 스마트폰으로 사용하시면 됩니다.
                 </p>
             </div>
@@ -77,13 +77,13 @@ const mainHTML = `
                 <picture>
                     <source media="(max-width:767px)"
                         srcset="https://cdn.quv.kr/dftb6o0ka/up/672b1b4cc976d_1920.png">
-                    <img src="https://cdn.quv.kr/dftb6o0ka/up/672b1b4ccf516_1920.png" alt="티링크 비즈">
+                    <img src="https://cdn.quv.kr/dftb6o0ka/up/6730975d9fb8a_1920.png" alt="티링크 비즈">
                 </picture>
-                <p class="mo mn-txt">. 외근이나 재택 근무시 사용에 적합<br>
-                    . 010 휴대폰번호를 사용하여 통화 성공률 향상<br>
-                    . 티링크 프로그램에서 대량문자발송 <small>(스마트폰 요금제 사용으로 문자 비용 무료)</small><br>
-                    . AI를 이용한 명함자동등록 기능<br>
-                    . 고객관리 프로그램에서 전화걸기 기능
+                <p class="mo mn-txt">· 외근이나 재택 근무시 사용에 적합<br>
+                    · 010 휴대폰번호를 사용하여 통화 성공률 향상<br>
+                    · 티링크 프로그램에서 대량문자발송 <small>(스마트폰 요금제 사용으로 문자 비용 무료)</small><br>
+                    · AI를 이용한 명함자동등록 기능<br>
+                    · 고객관리 프로그램에서 전화걸기 기능
                 </p>
             </div>
             <a href="#none" class="btn-more">더보기</a>
@@ -105,9 +105,9 @@ const mainHTML = `
                             재택근무 최적화 시스템!
                         </cite>
                         <p class="pc mn-txt">
-                            . 인터넷전화기와 PC폰 중 필요에 따라 선택하여 사용 가능<br>
-                            . 개별 녹취, 중앙 녹취 모두 지원 (녹취서버 → 임대형, 구축형 중 선택)<br>
-                            . 코로나19와 같은 긴급재난상황에서도 유연하게 재택근무로 변경 가능
+                            · 인터넷전화기와 PC폰 중 필요에 따라 선택하여 사용 가능<br>
+                            · 개별 녹취, 중앙 녹취 모두 지원 (녹취서버 → 임대형, 구축형 중 선택)<br>
+                            · 코로나19와 같은 긴급재난상황에서도 유연하게 재택근무로 변경 가능
                         </p>
                     </div>
                 </header>
@@ -117,9 +117,9 @@ const mainHTML = `
                     <img src="https://cdn.quv.kr/dftb6o0ka/up/672b1b4d2ab2f_1920.png" alt="">
                 </picture>
                 <p class="mo mn-txt">
-                    . 인터넷전화기와 PC폰 중 필요에 따라 선택하여 사용 가능<br>
-                    . 개별 녹취, 중앙 녹취 모두 지원 (녹취서버 → 임대형, 구축형 중 선택)<br>
-                    . 코로나19와 같은 긴급재난상황에서도 유연하게 재택근무로 변경 가능</p>
+                    · 인터넷전화기와 PC폰 중 필요에 따라 선택하여 사용 가능<br>
+                    · 개별 녹취, 중앙 녹취 모두 지원 (녹취서버 → 임대형, 구축형 중 선택)<br>
+                    · 코로나19와 같은 긴급재난상황에서도 유연하게 재택근무로 변경 가능</p>
             </div>
             <a href="#none" class="btn-more">더보기</a>
             <figure class="obj-area">
@@ -140,7 +140,7 @@ const mainHTML = `
                             고객사 환경에 가장 적합한
                             환경으로 개통하여 드립니다.
                         </cite>
-                        <p class="pc mn-txt">기업용 인터넷, 인터넷전화, 전국대표번호, 휴대폰 등
+                        <p class="pc mn-txt">기업용 인터넷, 인터넷전화, 전국대표번호, 휴대폰 등<br>
                             고객사 환경에 가장 유리한 쪽으로 개통하여 드립니다.<br>
                             국내통신 서비스를 가장 잘 아는 “티링크”에 맡겨주십시오.
                         </p>
@@ -151,7 +151,7 @@ const mainHTML = `
                         srcset="https://cdn.quv.kr/dftb6o0ka/up/672b1b4cc4f3e_1920.png">
                     <img src="https://cdn.quv.kr/dftb6o0ka/up/672b1b4cc717d_1920.png" alt="">
                 </picture>
-                <p class="mo mn-txt">기업용 인터넷, 인터넷전화, 전국대표번호, 휴대폰 등
+                <p class="mo mn-txt">기업용 인터넷, 인터넷전화, 전국대표번호, 휴대폰 등<br>
                     고객사 환경에 가장 유리한 쪽으로 개통하여 드립니다.<br>
                     국내통신 서비스를 가장 잘 아는 “티링크”에 맡겨주십시오.</p>
             </div>
@@ -171,7 +171,7 @@ const mainHTML = `
                         <cite>
                             유지보수, 네트워크 작업, 장비납품
                         </cite>
-                        <p class="mn-txt">업계 최고의 속도와 안정적인 품질을 제공하는 기업전용 인터넷서비스</p>
+                        <p class="mn-txt">업계 최고의 속도와 안정적인 품질을 제공하는 <br class="mo">기업전용 인터넷서비스</p>
                     </div>
                 </header>
                 <picture>
