@@ -1,24 +1,5 @@
-﻿<!DOCTYPE html>
-<html lang="ko">
-
-<head>
-    <title></title>
-
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    <meta name="Author" content="">
-    <meta name="Keywords" content="">
-    <meta name="Description" content="">
-    <meta name="format-detection" content="telephone=no">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport"
-        content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
-    <link rel="stylesheet" as="style" crossorigin
-        href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.8/dist/web/static/pretendard.css" />
-    <link rel="stylesheet" href="css/style.css" />
-</head>
-
-<body>
-    <div class="mn-cont">
+const mainHTML = `
+<div class="mn-cont">
         <nav class="pagination-vertical">
             <ul>
                 <li>
@@ -254,114 +235,105 @@
             </div>
         </section>
     </div>
+`;
 
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
-    <script>
-        (function ($) {
-            $.fn.checkingScrollTop = function () {
-                var init = function (nav) {
-                    var secTop = [];
-                    var $section = $('section[id^="section"]'),
-                        $sub = $(nav).find("li"),
-                        $subLink = [];
-                    var lastScrollTop = $(window).scrollTop();
-                    var windowHeight = $(window).height();
+// Select the target element
+const elTarget = document.querySelector('#blkdfrm1');
 
-                    // 섹션 offsetTop 값 저장
-                    $sub.each(function (i) {
-                        $subLink[i] = $(this).find('a').attr('href').slice(-1);
-                        secTop[i] = parseInt($("#section" + $subLink[i]).offset().top);
-                    });
+if (elTarget) {
+    // Insert the HTML into the target element
+    elTarget.innerHTML = mainHTML;
+}
 
-                    // 초기화 - 첫 번째 섹션과 첫 번째 메뉴에 활성화 클래스 추가
-                    updateCurrentSection();
 
-                    // 스크롤 이벤트에 따른 활성화 상태 업데이트
-                    $(window).scroll(function () {
-                        updateCurrentSection();
-                        lastScrollTop = $(window).scrollTop();
-                    });
+(function ($) {
+    $.fn.checkingScrollTop = function () {
+        var init = function (nav) {
+            var secTop = [];
+            var $section = $('section[id^="section"]'),
+                $sub = $(nav).find("li"),
+                $subLink = [];
+            var lastScrollTop = $(window).scrollTop();
+            var windowHeight = $(window).height();
 
-                    // 현재 위치에 맞는 섹션과 메뉴 항목에 활성화 클래스 추가
-                    function updateCurrentSection() {
-                        var scrollTop = $(window).scrollTop();
-                        var currentIndex = -1;
-
-                        // 현재 스크롤 위치에 맞는 섹션 인덱스 찾기
-                        for (var i = 0; i < secTop.length; i++) {
-                            if (scrollTop >= secTop[i] - windowHeight * 0.5 &&
-                                (i === secTop.length - 1 || scrollTop < secTop[i + 1] - windowHeight * 0.5)) {
-                                currentIndex = i;
-                                break;
-                            }
-                        }
-
-                        if (currentIndex !== -1) {
-                            addCurrent($sub.eq(currentIndex), currentIndex);
-
-                            // 스크롤 방향에 따라 아래쪽 섹션의 is-active 클래스 제거
-                            if (scrollTop > lastScrollTop) {
-                                // 스크롤을 아래로 내릴 때
-                                $("#section" + currentIndex).addClass("is-active");
-                            } else {
-                                // 스크롤을 위로 올릴 때, 브라우저 높이의 75% 기준으로 is-active 클래스 제거
-                                for (var j = currentIndex + 1; j < secTop.length; j++) {
-                                    if (scrollTop < secTop[j] - windowHeight * 0.75) {
-                                        $("#section" + j).removeClass("is-active");
-                                    }
-                                }
-                            }
-                        } else {
-                            $sub.removeClass("current");
-                            $section.removeClass("is-active");
-                        }
-                    }
-
-                    // 현재 활성화된 메뉴 및 섹션 설정
-                    function addCurrent(obj, index) {
-                        $sub.removeClass("current");
-                        $(obj).addClass("current");
-
-                        $("#section" + index).addClass("is-active");
-                    }
-                };
-
-                return this.each(function () {
-                    init(this);
-                });
-            };
-        })(jQuery);
-
-        $(function () {
-            $('.pagination-vertical').checkingScrollTop();
-
-            // $(".pagination-vertical li a").click(function (event) {
-            //     if (!$(this).parent().hasClass("current")) {
-            //         $(this).parents("ul").eq(0).find("li").removeClass("current");
-            //         $(this).parent().addClass("current");
-            //     }
-            // });
-
-            $(document).on('click', '.controller button', function () {
-                var cur = $('.pagination-vertical').find('.current').index();
-                if ($(this).hasClass('prev')) {
-                    if (cur < 1) cur = 1;
-                    $('.pagination-vertical').find("li").removeClass();
-                    $('.pagination-vertical').find("li").eq(cur - 1).addClass('current');
-                    $('html, body').scrollTop($("#section" + (cur - 1)).offset().top);
-                } else {
-                    if (cur >= $('.pagination-vertical').find('li').length - 2) {
-                        cur = $('.pagination-vertical').find('li').length - 2;
-                    }
-                    $('.pagination-vertical').find("li").removeClass();
-                    $('.pagination-vertical').find("li").eq(cur + 1).addClass('current');
-                    $('html, body').scrollTop($("#section" + (cur + 1)).offset().top);
-                }
+            // 섹션 offsetTop 값 저장
+            $sub.each(function (i) {
+                $subLink[i] = $(this).find('a').attr('href').slice(-1);
+                secTop[i] = parseInt($("#section" + $subLink[i]).offset().top);
             });
 
+            // 초기화 - 첫 번째 섹션과 첫 번째 메뉴에 활성화 클래스 추가
+            updateCurrentSection();
+
+            // 스크롤 이벤트에 따른 활성화 상태 업데이트
+            $(window).scroll(function () {
+                updateCurrentSection();
+                lastScrollTop = $(window).scrollTop();
+            });
+
+            // 현재 위치에 맞는 섹션과 메뉴 항목에 활성화 클래스 추가
+            function updateCurrentSection() {
+                var scrollTop = $(window).scrollTop();
+                var currentIndex = -1;
+
+                // 현재 스크롤 위치에 맞는 섹션 인덱스 찾기
+                for (var i = 0; i < secTop.length; i++) {
+                    if (scrollTop >= secTop[i] - windowHeight * 0.5 &&
+                        (i === secTop.length - 1 || scrollTop < secTop[i + 1] - windowHeight * 0.5)) {
+                        currentIndex = i;
+                        break;
+                    }
+                }
+
+                if (currentIndex !== -1) {
+                    addCurrent($sub.eq(currentIndex), currentIndex);
+
+                    // 스크롤 방향에 따라 아래쪽 섹션의 is-active 클래스 제거
+                    if (scrollTop > lastScrollTop) {
+                        // 스크롤을 아래로 내릴 때
+                        $("#section" + currentIndex).addClass("is-active");
+                    } else {
+                        // 스크롤을 위로 올릴 때, 브라우저 높이의 75% 기준으로 is-active 클래스 제거
+                        for (var j = currentIndex + 1; j < secTop.length; j++) {
+                            if (scrollTop < secTop[j] - windowHeight * 0.75) {
+                                $("#section" + j).removeClass("is-active");
+                            }
+                        }
+                    }
+                } else {
+                    $sub.removeClass("current");
+                    $section.removeClass("is-active");
+                }
+            }
+
+            // 현재 활성화된 메뉴 및 섹션 설정
+            function addCurrent(obj, index) {
+                $sub.removeClass("current");
+                $(obj).addClass("current");
+
+                $("#section" + index).addClass("is-active");
+            }
+        };
+
+        return this.each(function () {
+            init(this);
         });
-    </script>
+    };
+})(jQuery);
 
-</body>
-
-</html>
+$(document).on('click', '.controller button', function () {
+    var cur = $('.pagination-vertical').find('.current').index();
+    if ($(this).hasClass('prev')) {
+        if (cur < 1) cur = 1;
+        $('.pagination-vertical').find("li").removeClass();
+        $('.pagination-vertical').find("li").eq(cur - 1).addClass('current');
+        $('html, body').scrollTop($("#section" + (cur - 1)).offset().top);
+    } else {
+        if (cur >= $('.pagination-vertical').find('li').length - 2) {
+            cur = $('.pagination-vertical').find('li').length - 2;
+        }
+        $('.pagination-vertical').find("li").removeClass();
+        $('.pagination-vertical').find("li").eq(cur + 1).addClass('current');
+        $('html, body').scrollTop($("#section" + (cur + 1)).offset().top);
+    }
+});
