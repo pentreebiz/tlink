@@ -20,7 +20,7 @@ body {
     * {
         word-break: keep-all;
         box-sizing: border-box;
-        font-family: $fontFamily !important;
+        font-family: $fontFamily;
         
         &::before,
         &::after {
