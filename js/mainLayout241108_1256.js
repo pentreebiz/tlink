@@ -1,238 +1,240 @@
 const mainHTML = `
 <div class="mn-cont">
-    <nav class="pagination-vertical">
-        <ul>
-            <li>
-                <a href="#section0"><span>page1</span></a>
-            </li>
-            <li>
-                <a href="#section1"><span>page2</span></a>
-            </li>
-            <li>
-                <a href="#section2"><span>page3</span></a>
-            </li>
-            <li>
-                <a href="#section3"><span>page4</span></a>
-            </li>
-            <li>
-                <a href="#section4"><span>page5</span></a>
-            </li>
-        </ul>
-        <div class="controller">
-            <button type="button" class="prev">&lt;</button>
-            <button type="button" class="next">&gt;</button>
-        </div>
-    </nav>
-    <section class="mn-section bg-dark mn-biz" id="section0">
-        <div class="wrap">
-            <div class="cont">
-                <header class="mn-tit-area">
-                    <h2 class="mn-tit"><span>티링크 비즈</span></h2>
-                    <div class="mn-txt-area">
-                        <cite>어디서든 저렴하고 간편하게<br>
-                            사용 가능한 녹취, 고객관리시스템</cite>
-                        <p class="pc mn-txt">티링크 비즈는 인터넷전화기와 PC 폰, 스마트폰을 활용해서<br>
-                            어디서든 저렴하고 간편하게 사용 가능한 녹취, 고객관리시스템입니다.<br>
-                            사무실에서는 인터넷전화기로 재택 근무 시에는 PC폰으로<br>
-                            외근 중에는 스마트폰으로 사용하시면 됩니다.</p>
-                    </div>
-                </header>
-                <picture>
-                    <source media="(max-width:767px)"
-                        srcset="https://cdn.quv.kr/dftb6o0ka/up/672b1b4cc75b0_1920.png">
-                    <img src="https://cdn.quv.kr/dftb6o0ka/up/672b19c02226c_1920.png" alt="티링크 비즈">
-                </picture>
-                <p class="mo mn-txt">티링크 비즈는 인터넷전화기와 PC 폰, 스마트폰을 활용해서<br>
-                    어디서든 저렴하고 간편하게 사용 가능한 녹취, 고객관리시스템입니다.<br>
-                    사무실에서는 인터넷전화기로 재택 근무 시에는 PC폰으로<br>
-                    외근 중에는 스마트폰으로 사용하시면 됩니다.
-                </p>
+        <nav class="pagination-vertical">
+            <ul>
+                <li>
+                    <a href="#section0"><span>page1</span></a>
+                </li>
+                <li>
+                    <a href="#section1"><span>page2</span></a>
+                </li>
+                <li>
+                    <a href="#section2"><span>page3</span></a>
+                </li>
+                <li>
+                    <a href="#section3"><span>page4</span></a>
+                </li>
+                <li>
+                    <a href="#section4"><span>page5</span></a>
+                </li>
+            </ul>
+            <div class="controller">
+                <button type="button" class="prev">&lt;</button>
+                <button type="button" class="next">&gt;</button>
             </div>
-            <a href="#none" class="btn-more">더보기</a>
-            <figure class="obj-area">
-                <img src="https://cdn.quv.kr/dftb6o0ka/up/672b1b4cc6963_1920.png" alt="" class="obj1">
-                <img src="https://cdn.quv.kr/dftb6o0ka/up/672b1b4cc7f7f_800.png" alt="" class="obj2">
-            </figure>
-        </div>
-    </section>
-    <section class="mn-section bg mn-crm" id="section1">
-        <div class="wrap">
-            <div class="cont">
-                <header class="mn-tit-area">
-                    <h2 class="mn-tit">티링크<br>
-                        <span>모바일CRM</span>
-                    </h2>
-                    <div class="mn-txt-area">
-                        <cite>어디서든 업무가 가능한<br>
-                            모바일CRM으로 업무효율 up!
-                        </cite>
-                        <p class="pc mn-txt">· 외근이나 재택 근무시 사용에 적합<br>
-                            · 010 휴대폰번호를 사용하여 통화 성공률 향상<br>
-                            · 티링크 프로그램에서 대량문자발송 (스마트폰 요금제 사용으로 문자 비용 무료)<br>
-                            · AI를 이용한 명함자동등록 기능<br>
-                            · 고객관리 프로그램에서 전화걸기 기능
-                            .</p>
-                    </div>
-                </header>
-                <picture>
-                    <source media="(max-width:767px)"
-                        srcset="https://cdn.quv.kr/dftb6o0ka/up/672b1b4cc976d_1920.png">
-                    <img src="https://cdn.quv.kr/dftb6o0ka/up/6730975d9fb8a_1920.png" alt="티링크 비즈">
-                </picture>
-                <p class="mo mn-txt">· 외근이나 재택 근무시 사용에 적합<br>
-                    · 010 휴대폰번호를 사용하여 통화 성공률 향상<br>
-                    · 티링크 프로그램에서 대량문자발송 <small>(스마트폰 요금제 사용으로 문자 비용 무료)</small><br>
-                    · AI를 이용한 명함자동등록 기능<br>
-                    · 고객관리 프로그램에서 전화걸기 기능
-                </p>
+        </nav>
+        <section class="mn-section bg-dark mn-biz" id="section0">
+            <div class="wrap">
+                <div class="cont">
+                    <header class="mn-tit-area">
+                        <h2 class="mn-tit"><span>티링크 비즈</span></h2>
+                        <div class="mn-txt-area">
+                            <cite>어디서든 저렴하고 간편하게<br>
+                                사용 가능한 녹취, 고객관리시스템</cite>
+                            <p class="pc mn-txt">티링크 비즈는 인터넷전화기와 PC 폰, 스마트폰을 활용해서<br>
+                                어디서든 저렴하고 간편하게 사용 가능한 녹취, 고객관리시스템입니다.<br>
+                                사무실에서는 인터넷전화기로 재택 근무 시에는 PC폰으로<br>
+                                외근 중에는 스마트폰으로 사용하시면 됩니다.</p>
+                        </div>
+                    </header>
+                    <picture>
+                        <source media="(max-width:767px)"
+                            srcset="https://cdn.quv.kr/dftb6o0ka/up/672b1b4cc75b0_1920.png">
+                        <img src="https://cdn.quv.kr/dftb6o0ka/up/672b19c02226c_1920.png" alt="티링크 비즈">
+                    </picture>
+                    <p class="mo mn-txt">티링크 비즈는 인터넷전화기와 PC 폰, 스마트폰을 활용해서<br>
+                        어디서든 저렴하고 간편하게 사용 가능한 녹취, 고객관리시스템입니다.<br>
+                        사무실에서는 인터넷전화기로 재택 근무 시에는 PC폰으로<br>
+                        외근 중에는 스마트폰으로 사용하시면 됩니다.
+                    </p>
+                </div>
+                <a href="http://tlinkcrm.co.kr/bizsolution" class="btn-more">더보기</a>
+                <figure class="obj-area">
+                    <img src="https://cdn.quv.kr/dftb6o0ka/up/672b1b4cc6963_1920.png" alt="" class="obj1">
+                    <img src="https://cdn.quv.kr/dftb6o0ka/up/672b1b4cc7f7f_800.png" alt="" class="obj2">
+                </figure>
             </div>
-            <a href="#none" class="btn-more">더보기</a>
-            <figure class="obj-area">
-                <img src="https://cdn.quv.kr/dftb6o0ka/up/672b1b4ccadfd_1920.png" alt="" class="obj1">
-                <img src="https://cdn.quv.kr/dftb6o0ka/up/672b1b4ccd1b1_1920.png" alt="" class="obj2">
-                <img src="https://cdn.quv.kr/dftb6o0ka/up/672b1b4cccb46_1920.png" alt="" class="obj3">
-            </figure>
-        </div>
-    </section>
-    <section class="mn-section mn-pcphone" id="section2">
-        <div class="wrap">
-            <div class="cont">
-                <header class="mn-tit-area">
-                    <h2 class="mn-tit"><span>티링크 PC폰</span></h2>
-                    <div class="mn-txt-area">
-                        <cite>
-                            PC에 설치하여 어디서든 사무실처럼,<br>
-                            재택근무 최적화 시스템!
-                        </cite>
-                        <p class="pc mn-txt">
-                            · 인터넷전화기와 PC폰 중 필요에 따라 선택하여 사용 가능<br>
-                            · 개별 녹취, 중앙 녹취 모두 지원 (녹취서버 → 임대형, 구축형 중 선택)<br>
-                            · 코로나19와 같은 긴급재난상황에서도 유연하게 재택근무로 변경 가능
-                        </p>
-                    </div>
-                </header>
-                <picture>
-                    <source media="(max-width:767px)"
-                        srcset="https://cdn.quv.kr/dftb6o0ka/up/672b1b4d1a2c0_1920.png">
-                    <img src="https://cdn.quv.kr/dftb6o0ka/up/672b1b4d2ab2f_1920.png" alt="">
-                </picture>
-                <p class="mo mn-txt">
-                    · 인터넷전화기와 PC폰 중 필요에 따라 선택하여 사용 가능<br>
-                    · 개별 녹취, 중앙 녹취 모두 지원 (녹취서버 → 임대형, 구축형 중 선택)<br>
-                    · 코로나19와 같은 긴급재난상황에서도 유연하게 재택근무로 변경 가능</p>
+        </section>
+        <section class="mn-section bg mn-crm" id="section1">
+            <div class="wrap">
+                <div class="cont">
+                    <header class="mn-tit-area">
+                        <h2 class="mn-tit">티링크<br>
+                            <span>모바일CRM</span>
+                        </h2>
+                        <div class="mn-txt-area">
+                            <cite>어디서든 업무가 가능한<br>
+                                모바일CRM으로 업무효율 up!
+                            </cite>
+                            <p class="pc mn-txt">· 외근이나 재택 근무시 사용에 적합<br>
+                                · 010 휴대폰번호를 사용하여 통화 성공률 향상<br>
+                                · 티링크 프로그램에서 대량문자발송 (스마트폰 요금제 사용으로 문자 비용 무료)<br>
+                                · AI를 이용한 명함자동등록 기능<br>
+                                · 고객관리 프로그램에서 전화걸기 기능
+                                .</p>
+                        </div>
+                    </header>
+                    <picture>
+                        <source media="(max-width:767px)"
+                            srcset="https://cdn.quv.kr/dftb6o0ka/up/672b1b4cc976d_1920.png">
+                        <img src="https://cdn.quv.kr/dftb6o0ka/up/6730975d9fb8a_1920.png" alt="티링크 비즈">
+                    </picture>
+                    <p class="mo mn-txt">· 외근이나 재택 근무시 사용에 적합<br>
+                        · 010 휴대폰번호를 사용하여 통화 성공률 향상<br>
+                        · 티링크 프로그램에서 대량문자발송 <small>(스마트폰 요금제 사용으로 문자 비용 무료)</small><br>
+                        · AI를 이용한 명함자동등록 기능<br>
+                        · 고객관리 프로그램에서 전화걸기 기능
+                    </p>
+                </div>
+                <a href="http://tlinkcrm.co.kr/32" class="btn-more">더보기</a>
+                <figure class="obj-area">
+                    <img src="https://cdn.quv.kr/dftb6o0ka/up/672b1b4ccadfd_1920.png" alt="" class="obj1">
+                    <img src="https://cdn.quv.kr/dftb6o0ka/up/672b1b4ccd1b1_1920.png" alt="" class="obj2">
+                    <img src="https://cdn.quv.kr/dftb6o0ka/up/672b1b4cccb46_1920.png" alt="" class="obj3">
+                </figure>
             </div>
-            <a href="#none" class="btn-more">더보기</a>
-            <figure class="obj-area">
-                <img src="https://cdn.quv.kr/dftb6o0ka/up/672b1b4cd04f0_1920.png" alt="" class="obj1">
-                <img src="https://cdn.quv.kr/dftb6o0ka/up/672b1b4d1e0f5_800.png" alt="" class="obj2">
-            </figure>
-        </div>
-    </section>
-    <section class="mn-section bg-dark mn-company" id="section3">
-        <div class="wrap">
-            <div class="cont">
-                <header class="mn-tit-area">
-                    <h2 class="mn-tit"><span>기업용</span><br>
-                        <span>인터넷 &amp; 전화</span>
-                    </h2>
-                    <div class="mn-txt-area">
-                        <cite>
-                            고객사 환경에 가장 적합한
-                            환경으로 개통하여 드립니다.
-                        </cite>
-                        <p class="pc mn-txt">기업용 인터넷, 인터넷전화, 전국대표번호, 휴대폰 등<br>
-                            고객사 환경에 가장 유리한 쪽으로 개통하여 드립니다.<br>
-                            국내통신 서비스를 가장 잘 아는 “티링크”에 맡겨주십시오.
-                        </p>
-                    </div>
-                </header>
-                <picture>
-                    <source media="(max-width:767px)"
-                        srcset="https://cdn.quv.kr/dftb6o0ka/up/672b1b4cc4f3e_1920.png">
-                    <img src="https://cdn.quv.kr/dftb6o0ka/up/672b1b4cc717d_1920.png" alt="">
-                </picture>
-                <p class="mo mn-txt">기업용 인터넷, 인터넷전화, 전국대표번호, 휴대폰 등<br>
-                    고객사 환경에 가장 유리한 쪽으로 개통하여 드립니다.<br>
-                    국내통신 서비스를 가장 잘 아는 “티링크”에 맡겨주십시오.</p>
+        </section>
+        <section class="mn-section mn-pcphone" id="section2">
+            <div class="wrap">
+                <div class="cont">
+                    <header class="mn-tit-area">
+                        <h2 class="mn-tit"><span>티링크 PC폰</span></h2>
+                        <div class="mn-txt-area">
+                            <cite>
+                                PC에 설치하여 어디서든 사무실처럼,<br>
+                                재택근무 최적화 시스템!
+                            </cite>
+                            <p class="pc mn-txt">
+                                · 인터넷전화기와 PC폰 중 필요에 따라 선택하여 사용 가능<br>
+                                · 개별 녹취, 중앙 녹취 모두 지원 (녹취서버 → 임대형, 구축형 중 선택)<br>
+                                · 코로나19와 같은 긴급재난상황에서도 유연하게 재택근무로 변경 가능
+                            </p>
+                        </div>
+                    </header>
+                    <picture>
+                        <source media="(max-width:767px)"
+                            srcset="https://cdn.quv.kr/dftb6o0ka/up/672b1b4d1a2c0_1920.png">
+                        <img src="https://cdn.quv.kr/dftb6o0ka/up/672b1b4d2ab2f_1920.png" alt="">
+                    </picture>
+                    <p class="mo mn-txt">
+                        · 인터넷전화기와 PC폰 중 필요에 따라 선택하여 사용 가능<br>
+                        · 개별 녹취, 중앙 녹취 모두 지원 (녹취서버 → 임대형, 구축형 중 선택)<br>
+                        · 코로나19와 같은 긴급재난상황에서도 유연하게 재택근무로 변경 가능</p>
+                </div>
+                <a href="http://tlinkcrm.co.kr/softphone" class="btn-more">더보기</a>
+                <figure class="obj-area">
+                    <img src="https://cdn.quv.kr/dftb6o0ka/up/672b1b4cd04f0_1920.png" alt="" class="obj1">
+                    <img src="https://cdn.quv.kr/dftb6o0ka/up/672b1b4d1e0f5_800.png" alt="" class="obj2">
+                </figure>
             </div>
-            <a href="#none" class="btn-more">더보기</a>
-            <figure class="obj-area">
-                <img src="https://cdn.quv.kr/dftb6o0ka/up/672b1b4cc7406_1920.png" alt="" class="obj1">
-                <img src="https://cdn.quv.kr/dftb6o0ka/up/672b1b4cc83be_800.png" alt="" class="obj2">
-            </figure>
-        </div>
-    </section>
-    <section class="mn-section bg mn-network" id="section4">
-        <div class="wrap">
-            <div class="cont">
-                <header class="mn-tit-area">
-                    <h2 class="mn-tit"><span>IT / 네트워크</span></h2>
-                    <div class="mn-txt-area">
-                        <cite>
-                            유지보수, 네트워크 작업, 장비납품
-                        </cite>
-                        <p class="mn-txt">업계 최고의 속도와 안정적인 품질을 제공하는 <br class="mo">기업전용 인터넷서비스</p>
-                    </div>
-                </header>
-                <picture>
-                    <source media="(max-width:767px)"
-                        srcset="https://cdn.quv.kr/dftb6o0ka/up/672b1b4d15117_1920.png">
-                    <img src="https://cdn.quv.kr/dftb6o0ka/up/672b1b4d17be6_1920.png" alt="">
-                </picture>
-                <p class="mo mn-txt"></p>
+        </section>
+        <section class="mn-section bg-dark mn-company" id="section3">
+            <div class="wrap">
+                <div class="cont">
+                    <header class="mn-tit-area">
+                        <h2 class="mn-tit"><span>기업용</span><br>
+                            <span>인터넷 &amp; 전화</span>
+                        </h2>
+                        <div class="mn-txt-area">
+                            <cite>
+                                고객사 환경에 가장 적합한
+                                환경으로 개통하여 드립니다.
+                            </cite>
+                            <p class="pc mn-txt">기업용 인터넷, 인터넷전화, 전국대표번호, 휴대폰 등<br>
+                                고객사 환경에 가장 유리한 쪽으로 개통하여 드립니다.<br>
+                                국내통신 서비스를 가장 잘 아는 “티링크”에 맡겨주십시오.
+                            </p>
+                        </div>
+                    </header>
+                    <picture>
+                        <source media="(max-width:767px)"
+                            srcset="https://cdn.quv.kr/dftb6o0ka/up/672b1b4cc4f3e_1920.png">
+                        <img src="https://cdn.quv.kr/dftb6o0ka/up/672b1b4cc717d_1920.png" alt="">
+                    </picture>
+                    <p class="mo mn-txt">기업용 인터넷, 인터넷전화, 전국대표번호, 휴대폰 등<br>
+                        고객사 환경에 가장 유리한 쪽으로 개통하여 드립니다.<br>
+                        국내통신 서비스를 가장 잘 아는 “티링크”에 맡겨주십시오.</p>
+                </div>
+                <a href="http://tlinkcrm.co.kr/13#tab-1W58RO" class="btn-more">더보기</a>
+                <figure class="obj-area">
+                    <img src="https://cdn.quv.kr/dftb6o0ka/up/672b1b4cc7406_1920.png" alt="" class="obj1">
+                    <img src="https://cdn.quv.kr/dftb6o0ka/up/672b1b4cc83be_800.png" alt="" class="obj2">
+                </figure>
             </div>
-            <a href="#none" class="btn-more">더보기</a>
-            <figure class="obj-area">
-                <img src="https://cdn.quv.kr/dftb6o0ka/up/672b1b4d17e31_1920.png" alt="" class="obj1">
-                <img src="https://cdn.quv.kr/dftb6o0ka%2Fup%2F672d4cafb55a9_800.png" alt="" class="obj2">
-            </figure>
-        </div>
-    </section>
-    <section class="mn-section h-auto mn-support">
-        <div class="wrap">
-            <div class="cont">
-                <h2 class="mn-tit-sm"><span>고객지원</span></h2>
-                <ul>
-                    <li><a href="#none">
-                            <img src="https://cdn.quv.kr/dftb6o0ka/up/672b1b4d5420b_800.png" alt="">
+        </section>
+        <section class="mn-section bg mn-network" id="section4">
+            <div class="wrap">
+                <div class="cont">
+                    <header class="mn-tit-area">
+                        <h2 class="mn-tit"><span>IT / 네트워크</span></h2>
+                        <div class="mn-txt-area">
+                            <cite>
+                                유지보수, 네트워크 작업, 장비납품
+                            </cite>
+                            <p class="mn-txt">업계 최고의 속도와 안정적인 품질을 제공하는 <br class="mo">기업전용 인터넷서비스</p>
+                        </div>
+                    </header>
+                    <picture>
+                        <source media="(max-width:767px)"
+                            srcset="https://cdn.quv.kr/dftb6o0ka/up/672b1b4d15117_1920.png">
+                        <img src="https://cdn.quv.kr/dftb6o0ka/up/672b1b4d17be6_1920.png" alt="">
+                    </picture>
+                    <p class="mo mn-txt"></p>
+                </div>
+                <a href="http://tlinkcrm.co.kr/18#tab-2W58RO" class="btn-more">더보기</a>
+                <figure class="obj-area">
+                    <img src="https://cdn.quv.kr/dftb6o0ka/up/672b1b4d17e31_1920.png" alt="" class="obj1">
+                    <img src="https://cdn.quv.kr/dftb6o0ka%2Fup%2F672d4cafb55a9_800.png" alt="" class="obj2">
+                </figure>
+            </div>
+        </section>
+        <section class="mn-section h-auto mn-support">
+            <div class="wrap">
+                <div class="cont">
+                    <h2 class="mn-tit-sm"><span>고객지원</span></h2>
+                    <ul>
+                        <li><a href="https://smartstore.naver.com/tlink" target="_blank">
+                                <img src="https://cdn.quv.kr/dftb6o0ka/up/672b1b4d5420b_800.png" alt="">
                             <cite>티링크 스토어</cite></a>
-                    </li>
-                    <li><a href="#none">
-                            <img src="https://cdn.quv.kr/dftb6o0ka/up/672b1b4d55cf1_800.png" alt="">
-                            <cite>상담신청</cite>
-                        </a></li>
-                    <li><a href="#none">
-                            <img src="https://cdn.quv.kr/dftb6o0ka/up/672b1b4d5b392_800.png" alt="">
-                            <cite>문의 게시판</cite>
-                        </a></li>
-                    <li><a href="#none">
-                            <img src="https://cdn.quv.kr/dftb6o0ka/up/672b1b4d5cce1_800.png" alt="">
-                            <cite>자료실</cite>
-                        </a></li>
-                </ul>
+                        </li>
+                        <li><a href="http://tlinkcrm.co.kr/9">
+                                <img src="https://cdn.quv.kr/dftb6o0ka/up/672b1b4d55cf1_800.png" alt="">
+                                <cite>상담신청</cite>
+                            </a></li>
+                        <li><a href="http://tlinkcrm.co.kr/qna">
+                                <img src="https://cdn.quv.kr/dftb6o0ka/up/672b1b4d5b392_800.png" alt="">
+                                <cite>문의 게시판</cite>
+                            </a></li>
+                        <li><a href="http://tlinkcrm.co.kr/data">
+                                <img src="https://cdn.quv.kr/dftb6o0ka/up/672b1b4d5cce1_800.png" alt="">
+                                <cite>자료실</cite>
+                            </a></li>
+                    </ul>
+                </div>
+                <figure class="obj-area">
+                    <img src="https://cdn.quv.kr/dftb6o0ka/up/672b1b4cd04f0_1920.png" alt="" class="obj1">
+                </figure>
             </div>
-            <figure class="obj-area">
-                <img src="https://cdn.quv.kr/dftb6o0ka/up/672b1b4cd04f0_1920.png" alt="" class="obj1">
-            </figure>
-        </div>
-    </section>
-    <section class="mn-section bg-dark h-auto mn-cs">
-        <div class="wrap">
-            <div class="cont">
-                <h2><img src="https://cdn.quv.kr/dftb6o0ka/up/672b1b4d0d193_1920.png" alt="TLINK"></h2>
-                <p><strong>티링크</strong>의 <strong>스마트 비지니스 서비스</strong>를 지금 경험하세요!</p>
-                <dl>
-                    <dt>고객문의</dt>
-                    <dd>1877-3836</dd>
-                </dl>
+        </section>
+        <section class="mn-section bg-dark h-auto mn-cs">
+            <div class="wrap">
+                <div class="cont">
+                    <h2><img src="https://cdn.quv.kr/dftb6o0ka/up/672b1b4d0d193_1920.png" alt="TLINK"></h2>
+                    <p><strong>티링크</strong>의 <strong>스마트 비지니스 서비스</strong>를 지금 경험하세요!</p>
+                    <a href="tel:1877-3836">
+                        <dl>
+                            <dt>고객문의</dt>
+                            <dd>1877-3836</dd>
+                        </dl>
+                    </a>
+                </div>
+    
+                <figure class="obj-area">
+                    <img src="https://cdn.quv.kr/dftb6o0ka/up/672b1b4cc7406_1920.png" alt="" class="obj1">
+                </figure>
             </div>
-
-            <figure class="obj-area">
-                <img src="https://cdn.quv.kr/dftb6o0ka/up/672b1b4cc7406_1920.png" alt="" class="obj1">
-            </figure>
-        </div>
-    </section>
-</div>
+        </section>
+    </div>
 `;
 
 // Select the target element
