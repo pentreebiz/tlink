@@ -323,3 +323,20 @@ if (elTarget) {
         });
     };
 })(jQuery);
+
+$(document).on('click', '.controller button', function () {
+    var cur = $('.pagination-vertical').find('.current').index();
+    if ($(this).hasClass('prev')) {
+        if (cur < 1) cur = 1;
+        $('.pagination-vertical').find("li").removeClass();
+        $('.pagination-vertical').find("li").eq(cur - 1).addClass('current');
+        $('html, body').scrollTop($("#section" + (cur - 1)).offset().top);
+    } else {
+        if (cur >= $('.pagination-vertical').find('li').length - 2) {
+            cur = $('.pagination-vertical').find('li').length - 2;
+        }
+        $('.pagination-vertical').find("li").removeClass();
+        $('.pagination-vertical').find("li").eq(cur + 1).addClass('current');
+        $('html, body').scrollTop($("#section" + (cur + 1)).offset().top);
+    }
+});
