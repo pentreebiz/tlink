@@ -20,7 +20,6 @@ body {
     * {
         word-break: keep-all;
         box-sizing: border-box;
-        font-family: $fontFamily;
         
         &::before,
         &::after {
@@ -184,6 +183,9 @@ button {
         gap:10px;
     }
 }
+.text-m, 
+.text-m span { line-height:initial }
+
 /* animation */
 @keyframes showUp {
 	0% {
