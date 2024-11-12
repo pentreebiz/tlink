@@ -1,5 +1,5 @@
 const mainHTML = `
-<div class="mn-cont">
+    <div class="mn-cont">
         <nav class="pagination-vertical">
             <ul>
                 <li>
@@ -38,9 +38,8 @@ const mainHTML = `
                         </div>
                     </header>
                     <picture>
-                        <source media="(max-width:767px)"
-                            srcset="https://cdn.quv.kr/dftb6o0ka/up/672b1b4cc75b0_1920.png">
-                        <img src="https://cdn.quv.kr/dftb6o0ka/up/672b19c02226c_1920.png" alt="티링크 비즈">
+                        <source media="(max-width:767px)" srcset="https://tlinkjuin.cafe24.com/quvassets/images/biz-mo.png">
+                        <img src="https://tlinkjuin.cafe24.com/quvassets/images/biz.png" alt="티링크 비즈">
                     </picture>
                     <p class="mo mn-txt">티링크 비즈는 인터넷전화기와 PC 폰, 스마트폰을 활용해서<br>
                         어디서든 저렴하고 간편하게 사용 가능한 녹취, 고객관리시스템입니다.<br>
@@ -50,8 +49,8 @@ const mainHTML = `
                 </div>
                 <a href="http://tlinkcrm.co.kr/bizsolution" class="btn-more">더보기</a>
                 <figure class="obj-area">
-                    <img src="https://cdn.quv.kr/dftb6o0ka/up/672b1b4cc6963_1920.png" alt="" class="obj1">
-                    <img src="https://cdn.quv.kr/dftb6o0ka/up/672b1b4cc7f7f_800.png" alt="" class="obj2">
+                    <img src="https://tlinkjuin.cafe24.com/quvassets/images/biz-obj1.png" alt="" class="obj1">
+                    <img src="https://tlinkjuin.cafe24.com/quvassets/images/biz-obj2.png" alt="" class="obj2">
                 </figure>
             </div>
         </section>
@@ -75,9 +74,8 @@ const mainHTML = `
                         </div>
                     </header>
                     <picture>
-                        <source media="(max-width:767px)"
-                            srcset="https://cdn.quv.kr/dftb6o0ka/up/672b1b4cc976d_1920.png">
-                        <img src="https://cdn.quv.kr/dftb6o0ka/up/6730975d9fb8a_1920.png" alt="티링크 비즈">
+                        <source media="(max-width:767px)" srcset="https://tlinkjuin.cafe24.com/quvassets/images/crm-mo.png">
+                        <img src="https://tlinkjuin.cafe24.com/quvassets/images/crm.png" alt="티링크 비즈">
                     </picture>
                     <p class="mo mn-txt">· 외근이나 재택 근무시 사용에 적합<br>
                         · 010 휴대폰번호를 사용하여 통화 성공률 향상<br>
@@ -88,9 +86,9 @@ const mainHTML = `
                 </div>
                 <a href="http://tlinkcrm.co.kr/32" class="btn-more">더보기</a>
                 <figure class="obj-area">
-                    <img src="https://cdn.quv.kr/dftb6o0ka/up/672b1b4ccadfd_1920.png" alt="" class="obj1">
-                    <img src="https://cdn.quv.kr/dftb6o0ka/up/672b1b4ccd1b1_1920.png" alt="" class="obj2">
-                    <img src="https://cdn.quv.kr/dftb6o0ka/up/672b1b4cccb46_1920.png" alt="" class="obj3">
+                    <img src="https://tlinkjuin.cafe24.com/quvassets/images/crm-obj1.png" alt="" class="obj1">
+                    <img src="https://tlinkjuin.cafe24.com/quvassets/images/crm-obj2.png" alt="" class="obj2">
+                    <img src="https://tlinkjuin.cafe24.com/quvassets/images/crm-obj3.png" alt="" class="obj3">
                 </figure>
             </div>
         </section>
@@ -112,9 +110,8 @@ const mainHTML = `
                         </div>
                     </header>
                     <picture>
-                        <source media="(max-width:767px)"
-                            srcset="https://cdn.quv.kr/dftb6o0ka/up/672b1b4d1a2c0_1920.png">
-                        <img src="https://cdn.quv.kr/dftb6o0ka/up/672b1b4d2ab2f_1920.png" alt="">
+                        <source media="(max-width:767px)" srcset="https://tlinkjuin.cafe24.com/quvassets/images/pcphone-mo.png">
+                        <img src="https://tlinkjuin.cafe24.com/quvassets/images/pcphone.png" alt="">
                     </picture>
                     <p class="mo mn-txt">
                         · 인터넷전화기와 PC폰 중 필요에 따라 선택하여 사용 가능<br>
@@ -123,8 +120,8 @@ const mainHTML = `
                 </div>
                 <a href="http://tlinkcrm.co.kr/softphone" class="btn-more">더보기</a>
                 <figure class="obj-area">
-                    <img src="https://cdn.quv.kr/dftb6o0ka/up/672b1b4cd04f0_1920.png" alt="" class="obj1">
-                    <img src="https://cdn.quv.kr/dftb6o0ka/up/672b1b4d1e0f5_800.png" alt="" class="obj2">
+                    <img src="https://tlinkjuin.cafe24.com/quvassets/images/pcphone-obj1.png" alt="" class="obj1">
+                    <img src="https://tlinkjuin.cafe24.com/quvassets/images/pcphone-obj2.png" alt="" class="obj2">
                 </figure>
             </div>
         </section>
@@ -147,9 +144,8 @@ const mainHTML = `
                         </div>
                     </header>
                     <picture>
-                        <source media="(max-width:767px)"
-                            srcset="https://cdn.quv.kr/dftb6o0ka/up/672b1b4cc4f3e_1920.png">
-                        <img src="https://cdn.quv.kr/dftb6o0ka/up/672b1b4cc717d_1920.png" alt="">
+                        <source media="(max-width:767px)" srcset="https://tlinkjuin.cafe24.com/quvassets/images/company-mo.png" alt="">
+                        <img src="https://tlinkjuin.cafe24.com/quvassets/images/company.png" alt="">
                     </picture>
                     <p class="mo mn-txt">기업용 인터넷, 인터넷전화, 전국대표번호, 휴대폰 등<br>
                         고객사 환경에 가장 유리한 쪽으로 개통하여 드립니다.<br>
@@ -157,8 +153,8 @@ const mainHTML = `
                 </div>
                 <a href="http://tlinkcrm.co.kr/13#tab-1W58RO" class="btn-more">더보기</a>
                 <figure class="obj-area">
-                    <img src="https://cdn.quv.kr/dftb6o0ka/up/672b1b4cc7406_1920.png" alt="" class="obj1">
-                    <img src="https://cdn.quv.kr/dftb6o0ka/up/672b1b4cc83be_800.png" alt="" class="obj2">
+                    <img src="https://tlinkjuin.cafe24.com/quvassets/images/company-obj1.png" alt="" class="obj1">
+                    <img src="https://tlinkjuin.cafe24.com/quvassets/images/company-obj2.png" alt="" class="obj2">
                 </figure>
             </div>
         </section>
@@ -175,16 +171,15 @@ const mainHTML = `
                         </div>
                     </header>
                     <picture>
-                        <source media="(max-width:767px)"
-                            srcset="https://cdn.quv.kr/dftb6o0ka/up/672b1b4d15117_1920.png">
-                        <img src="https://cdn.quv.kr/dftb6o0ka/up/672b1b4d17be6_1920.png" alt="">
+                        <source media="(max-width:767px)" srcset="https://tlinkjuin.cafe24.com/quvassets/images/network-mo.png">
+                        <img src="https://tlinkjuin.cafe24.com/quvassets/images/network.png" alt="">
                     </picture>
                     <p class="mo mn-txt"></p>
                 </div>
                 <a href="http://tlinkcrm.co.kr/18#tab-2W58RO" class="btn-more">더보기</a>
                 <figure class="obj-area">
-                    <img src="https://cdn.quv.kr/dftb6o0ka/up/672b1b4d17e31_1920.png" alt="" class="obj1">
-                    <img src="https://cdn.quv.kr/dftb6o0ka%2Fup%2F672d4cafb55a9_800.png" alt="" class="obj2">
+                    <img src="https://tlinkjuin.cafe24.com/quvassets/images/network-obj1.png" alt="" class="obj1">
+                    <img src="https://tlinkjuin.cafe24.com/quvassets/images/network-obj2.png" alt="" class="obj2">
                 </figure>
             </div>
         </section>
@@ -193,33 +188,41 @@ const mainHTML = `
                 <div class="cont">
                     <h2 class="mn-tit-sm"><span>고객지원</span></h2>
                     <ul>
-                        <li><a href="https://smartstore.naver.com/tlink" target="_blank">
-                                <img src="https://cdn.quv.kr/dftb6o0ka/up/672b1b4d5420b_800.png" alt="">
-                            <cite>티링크 스토어</cite></a>
+                        <li>
+                            <a href="https://smartstore.naver.com/tlink" target="_blank">
+                                <img src="https://tlinkjuin.cafe24.com/quvassets/images/support1.png" alt="">
+                                <cite>티링크 스토어</cite>
+                            </a>
                         </li>
-                        <li><a href="http://tlinkcrm.co.kr/9">
-                                <img src="https://cdn.quv.kr/dftb6o0ka/up/672b1b4d55cf1_800.png" alt="">
+                        <li>
+                            <a href="http://tlinkcrm.co.kr/9">
+                                <img src="https://tlinkjuin.cafe24.com/quvassets/images/support2.png" alt="">
                                 <cite>상담신청</cite>
-                            </a></li>
-                        <li><a href="http://tlinkcrm.co.kr/qna">
-                                <img src="https://cdn.quv.kr/dftb6o0ka/up/672b1b4d5b392_800.png" alt="">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="http://tlinkcrm.co.kr/qna">
+                                <img src="https://tlinkjuin.cafe24.com/quvassets/images/support3.png" alt="">
                                 <cite>문의 게시판</cite>
-                            </a></li>
-                        <li><a href="http://tlinkcrm.co.kr/data">
-                                <img src="https://cdn.quv.kr/dftb6o0ka/up/672b1b4d5cce1_800.png" alt="">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="http://tlinkcrm.co.kr/data">
+                                <img src="https://tlinkjuin.cafe24.com/quvassets/images/support4.png" alt="">
                                 <cite>자료실</cite>
-                            </a></li>
+                            </a>
+                        </li>
                     </ul>
                 </div>
                 <figure class="obj-area">
-                    <img src="https://cdn.quv.kr/dftb6o0ka/up/672b1b4cd04f0_1920.png" alt="" class="obj1">
+                    <img src="https://tlinkjuin.cafe24.com/quvassets/images/support-obj.png" alt="" class="obj1">
                 </figure>
             </div>
         </section>
         <section class="mn-section bg-dark h-auto mn-cs">
             <div class="wrap">
                 <div class="cont">
-                    <h2><img src="https://cdn.quv.kr/dftb6o0ka/up/672b1b4d0d193_1920.png" alt="TLINK"></h2>
+                    <h2><img src="https://tlinkjuin.cafe24.com/quvassets/images/logo-wh.png" alt="TLINK"></h2>
                     <p><strong>티링크</strong>의 <strong>스마트 비지니스 서비스</strong>를 지금 경험하세요!</p>
                     <a href="tel:1877-3836">
                         <dl>
@@ -230,7 +233,7 @@ const mainHTML = `
                 </div>
     
                 <figure class="obj-area">
-                    <img src="https://cdn.quv.kr/dftb6o0ka/up/672b1b4cc7406_1920.png" alt="" class="obj1">
+                    <img src="https://tlinkjuin.cafe24.com/quvassets/images/cs-obj1.png" alt="" class="obj1">
                 </figure>
             </div>
         </section>

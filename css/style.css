@@ -530,6 +530,7 @@ button:focus {
 .mn-cs h2 img {
   display: block;
   margin: 0 auto;
+  max-width: 180px;
 }
 .mn-cs p {
   font-size: 42px;
