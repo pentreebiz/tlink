@@ -278,7 +278,7 @@ button:focus {
   padding-bottom: 100px;
 }
 .mn-section.bg-dark {
-  background-color: #5263fe;
+  background-color: #628ff1;
 }
 .mn-section.bg-dark * {
   color: #fff;
@@ -301,7 +301,7 @@ button:focus {
   -webkit-transform: translateX(-50%);
           transform: translateX(-50%);
   color: #fff !important;
-  background-color: #5263fe;
+  background-color: #628ff1;
   width: 146px;
   height: 36px;
   display: -webkit-box;
@@ -333,7 +333,7 @@ button:focus {
   background-color: #fff;
 }
 .bg .btn-more::after, .bg-dark .btn-more::after {
-  border-color: #5263fe;
+  border-color: #628ff1;
 }
 
 .btn-more:hover {
@@ -350,7 +350,7 @@ button:focus {
 }
 .mn-tit span {
   display: inline-block;
-  border-bottom: 2px solid rgba(82, 99, 254, 0.3);
+  border-bottom: 2px solid rgba(98, 143, 241, 0.3);
 }
 .bg-dark .mn-tit span {
   border-bottom-color: rgba(255, 255, 255, 0.3);
